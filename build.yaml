@@ -1,0 +1,16 @@
+builders:
+  # Builder name in build.yaml
+  hash_compare:
+    import: "package:hash_compare/hash_compare.dart"
+    builder_factories: ["buildHashCompare"]
+    build_extensions: {".dart": ["hash_compare.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
+
+targets:
+  $default:
+    builders:
+      hash_compare:
+        generate_for:
+        - test/**.dart

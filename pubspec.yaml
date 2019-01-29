@@ -1,0 +1,17 @@
+name:         hash_compare
+version:      0.0.0
+author:       Herman Bergwerf <hermanbergwerf@gmail.com>
+description:  Hash and compare function generator
+homepage:     https://github.com/bergwerf/hash_compare
+environment:
+  sdk:        '>=2.0.0 <3.0.0'
+
+dependencies:
+  quiver:        ^2.0.1
+  source_gen:    ^0.9.4
+  build_config:  ^0.3.1+4
+
+dev_dependencies:
+  test: any
+  build_runner: any
+  build_verify: any
