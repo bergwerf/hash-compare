@@ -1,4 +1,4 @@
-test/*.g.dart
+**/*.g.dart
 
 #################
 # Linux.gitignore
