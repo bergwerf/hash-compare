@@ -2,7 +2,7 @@ name:         hash_compare
 version:      0.1.0
 author:       Herman Bergwerf <hermanbergwerf@gmail.com>
 description:  Hash and compare function generator
-homepage:     https://github.com/bergwerf/hash_compare
+homepage:     https://github.com/bergwerf/hash-compare
 environment:
   sdk:        '>=2.0.0 <3.0.0'
 
