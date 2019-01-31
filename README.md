@@ -28,5 +28,4 @@ targets:
 
 To build use `pub run build_runner build` or similar commands. To make sure the
 build is updated when testing, add an `expectBuildClean` assertion to your test
-code. When publishing to Pub you need to include generated files. You can ignore
-them in your Git repository.
+code. When publishing to Pub you need to include generated files.
