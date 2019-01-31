@@ -4,10 +4,8 @@
 
 library hash_compare.test.example;
 
+import 'package:hash_compare/hash_compare.dart';
+
 part 'example_part1.dart';
 part 'example_part2.dart';
 part 'example.g.dart';
-
-num a = 0;
-num b = 1;
-num c = 2;

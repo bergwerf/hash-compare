@@ -1,7 +1,7 @@
 builders:
   # Builder name in build.yaml
   hash_compare:
-    import: "package:hash_compare/hash_compare.dart"
+    import: "package:hash_compare/builder.dart"
     builder_factories: ["buildHashCompare"]
     build_extensions: {".dart": ["hash_compare.g.part"]}
     auto_apply: dependents
